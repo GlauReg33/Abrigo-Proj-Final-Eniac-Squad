@@ -1,0 +1,119 @@
+@charset "UTF-9";
+
+@font-face{
+    font-family: 'Catcut';
+    src: url(fontes/Catcut.otf) format(opentype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Cocogoose';
+    src: url(fontes/Cocogoose-Pro-Light-trial.ttf) format(truetype);
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #897C6A;
+    --cor2: #ffffff;
+    --cor3: #BBAC99;
+
+    --fonte_padrão:'Cocogoose', cursive;
+    --fonte_destaque: 'Catcut', cursive;
+    --fonte_opcional: Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: var(--fonte_padrão);
+}
+
+header{
+    background-color: var(--cor2);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+header > h1{
+    color: var(--cor1);
+    font-family: var(--fonte_destaque);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.13);
+    font-weight: normal;
+    font-size: 35px;
+    padding: 35px 100px;
+}
+
+main{
+    text-align: center;
+    padding: 10px;
+}
+
+.conteiner{
+    display: flex;
+    border: px solid #897C6A;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+main > h2{
+    font-family: var(--fonte_destaque);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--cor2);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.945);
+}
+
+.intro > h4{
+    display: inline-flex;
+    font-family:var(--fonte_padrão) ;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: justify;
+    font-size: 12px;
+    margin: auto;
+    
+}
+
+.intro > h5{
+    display: inline-flex;
+    font-size: 10px;
+    max-width: 200px;
+    margin: 5px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+a{
+    background-color: var(--cor2);
+    padding-bottom: 10px;
+    padding-top: 90px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #897C6A;   
+}
+
+footer{
+    background-color: var(--cor1);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+footer > h6 {
+    color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+    max-width: 200px;
+    margin: auto;
+}
