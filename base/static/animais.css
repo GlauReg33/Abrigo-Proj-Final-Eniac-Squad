@@ -1,0 +1,67 @@
+@charset "UTF-9";
+
+@font-face{
+    font-family: 'Catcut';
+    src: url(fontes/Catcut.otf) format(opentype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Cocogoose';
+    src: url(fontes/Cocogoose-Pro-Light-trial.ttf) format(truetype);
+    font-weight: normal;
+}
+
+:root{
+    --cor1: #897C6A;
+    --cor2: #ffffff;
+    --cor3: #BBAC99;
+
+    --fonte_padrão:'Cocogoose', cursive;
+    --fonte_destaque: 'Catcut', cursive;
+    --fonte_opcional: Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: var(--fonte_padrão);
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+}
+
+main{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 15px #ffffff;
+}
+
+.inf{
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 55px; 
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+li{
+    margin-left: 14px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+
+
+
